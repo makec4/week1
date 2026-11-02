@@ -5,5 +5,5 @@ iloczyn = cena * ilosc
 print("iloczyn to:%d zl" % iloczyn)
 obnizka = iloczyn * 0.85
 print("cena po rabacie to:%.2f zl" % obnizka)
-
+print("koniec")
 
