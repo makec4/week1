@@ -75,3 +75,29 @@ round(3,75)
 4 
 
 #task1.3
+Podczas tworzenia krótkiego programu wyswietlił mi się błąd : 
+ValueError: invalid literal for int() with base 10: '2.5'
+Mimo, że widzimy liczbę zmiennoprzecinkową, to python wyczytuje ją jako string przez to, że jest w cudzysłowie. 
+Właśnie dlatego nie możemy zmienić typu wartości z domniemanego floata (który był stringiem) na inta.
+ 
+-question to investigate:
+1.Kiedy użyjemy int(fraction) zaokrągli nam w dół do pełnej całości, a round(fraction) zaokrągli nam w sposób właściwy (matematycznie).
+2.float(text_decimal) działa, bo musi przenieść wartość z str na float, a int musiałby przenieść wartość dwukrotnie: z str na float i z float na int 
+3.str(whole) to wartość 'pisemna' a whole jest zmienną z wpisaną wartością matematyczną.
+4.bool("0") jest wartością prawdziwą (True), ponieważ zero jest w nawiasie, co zmienia wartość z matematycznej na 'pisemną' .
+5.Zmiana typu wartości zmienia typ wartości, nie tworzy nowej, dlatego nie można zmienić np. str na int (oprócz cyfr w cudzysłowie).
+6.Przykład odwracalnej przemiany wartości to ze string na bool,int na float.
+7.round() zaokrągla lczbę, a int() bierze tylko całość np:
+round(3.77)
+4
+int(3.77)
+3
+8.Nic niespodziewanego się nie stanie, po prostu zostaną odrzucone białe znaki (spacje) pomiędzy cudzysłowiem, a liczbą.
+
+
+#task1.4
+Zrobione, działa prawidłowo.
+
+#task2.1
+
+1.
