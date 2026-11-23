@@ -100,4 +100,17 @@ Zrobione, działa prawidłowo.
 
 #task2.1
 
-1.
+1.Operator == sprawdza, czy dwie wartości są równe.
+np.5 == 5 True  ,  4 == 5 False 
+2.Operator != sprawdza, czy dwie wartości są różne.
+np.4 != 5 True  ,  5 != 5 False
+3.Operator > sprwadza, czy liczba (z lewej strony znaku) jest większa od drugiej (tej z prawej)
+np.4>3 True  , 4>5  False
+4.Operator < sprwadza, czy liczba (z lewej strony znaku) jest mniejsza od drugiej (z prawej strony znaku)
+np. 4<6 True  ,  4<3 False
+5.Operator >= sprawdza, czy liczba (z lewej strony znaku) jest większa lub równa od drugiej liczby (z prawej storny znaku)
+np. 4 >= 4  ,  True 4>=3 False
+6.Operator <= sprawdza czy liczba (z lewej strony znaku) jest mniejsza lub równa od drugiej (z prawej strony znaku)
+np. 4<=5 True  ,  4<=2  False 
+
+#task2.2 
