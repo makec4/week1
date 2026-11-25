@@ -114,3 +114,17 @@ np. 4 >= 4  ,  True 4>=3 False
 np. 4<=5 True  ,  4<=2  False 
 
 #task2.2 
+Experiment
+Questionos to investigate:
+1.Różnica wychodzi z własności znaku w pythonie: = służy do przypisania zmiennej, a == porównuje ze sobą dwie liczby.
+2.Można porównać ze sobą dwa stringi. np. "jajko" == "kura" False
+3.Można bezproblemowo porównać ze sobą dwa różne typy liczb (całkowitą i zmiennoprzecikową) np. -3 == -3.0 True
+
+#task3.1
+1.and-jeśli lewa storna ma wartość fałszywą to "wygrywa" i and przyjmuje jej wartość, a jeśli jest prawdziwa (True), to bierze tą drugą>
+2.or-jeśli lewa jest prwadziwa, to bierze lewą (działa odwrotnie do and), a jeśli lewa jest fałszywa, to bierze prawą.
+3.not-zwraca True/False, lecz odwraca prawdziwość, czyli: not 5  False (5 jest prawdziwe) , not 0 True (0 jest fałszywe). (not zmienia wynik na bool).
+
+#task3.2
+
+ 
