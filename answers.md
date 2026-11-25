@@ -1,4 +1,5 @@
 początek notatek
+
 #task.1.1
 1.Aby podać typ wartości używamy funkcji type, a przykładowe użycie
 wygląda tak: type(false).
@@ -85,7 +86,8 @@ Właśnie dlatego nie możemy zmienić typu wartości z domniemanego floata (kt�
 2.float(text_decimal) działa, bo musi przenieść wartość z str na float, a int musiałby przenieść wartość dwukrotnie: z str na float i z float na int 
 3.str(whole) to wartość 'pisemna' a whole jest zmienną z wpisaną wartością matematyczną.
 4.bool("0") jest wartością prawdziwą (True), ponieważ zero jest w nawiasie, co zmienia wartość z matematycznej na 'pisemną' .
-5.Zmiana typu wartości zmienia typ wartości, nie tworzy nowej, dlatego nie można zmienić np. str na int (oprócz cyfr w cudzysłowie).
+5.
+Zmiana typu wartości zmienia typ wartości, nie tworzy nowej, dlatego nie można zmienić np. str na int (oprócz cyfr w cudzysłowie).
 6.Przykład odwracalnej przemiany wartości to ze string na bool,int na float.
 7.round() zaokrągla lczbę, a int() bierze tylko całość np:
 round(3.77)
@@ -126,5 +128,14 @@ Questionos to investigate:
 3.not-zwraca True/False, lecz odwraca prawdziwość, czyli: not 5  False (5 jest prawdziwe) , not 0 True (0 jest fałszywe). (not zmienia wynik na bool).
 
 #task3.2
+W programie logic.py:
+And dawał True wtedy, gdy oby dwa warunki zostały spełnione.
+Or dawał True wtedy, kiedy chociaż jeden warunek zostawał spełniony.
+Not zmienia wartość bool-ową na przeciwną (np. not 5 = False-5 normalnie ma wartość)
 
+#task4.1
+muszę dokończyć, bo nie dzxiała na razie idę dalej
+
+#task4.2
+ 
  
